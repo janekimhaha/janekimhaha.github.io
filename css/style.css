@@ -34,9 +34,9 @@ body {
     background-attachment: fixed;
     /* Resizes the background image to cover the entire container */
     background-size: cover;
-    font-family: Futura, Verdana, sans-serif;
+    font-family: "Nanum Pen Script", cursive;
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
