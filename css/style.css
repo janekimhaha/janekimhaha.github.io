@@ -96,9 +96,7 @@ img {
 }
 
 .button,
-.intro {
-    font-size: 1.5em;
-}
+.intro,
 .links-container,
 .slidedown,
 .external-link {
@@ -108,6 +106,15 @@ img {
     text-decoration: none;
     color: inherit;
     text-align: center;
+}
+
+.button,
+.intro,
+h1,
+h2 {
+    font-size: 1.5em;
+    line-height: 1.2;
+
 }
 
 .button, .external-link {
@@ -190,7 +197,7 @@ img {
 }
 
 .footer {
-  font-size: .66em;
+  font-size: 1.25em;
   background-color: rgba(0, 0, 0, .5);
   color: rgba(225, 225, 225, .8);
   text-decoration: none;
