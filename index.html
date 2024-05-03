@@ -8,6 +8,10 @@
   <!-- Add your name below -->
   <title>Jane Kim</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
@@ -31,7 +35,7 @@
     </div>
     <!-- Replace the # inside of the href="#" with your links. -->
     <div class="links-container">
-      <div class="button toggle">Blog post</div>
+      <div class="button toggle"><i class="fa-brands fa-medium"></i>Blog post</div>
       <div class="slidedown">
         <div class="description">
           <h2>How TikTok is Deteriorating Your Attention Span</h2>
@@ -40,7 +44,7 @@
         </div>
       </div>
 
-      <div class="button toggle">Podcast</div>
+      <div class="button toggle"><i class="fa-brands fa-soundcloud"></i>Podcast</div>
       <div class="slidedown">
         <div class="description">
           <h2>Helping or Hindering?: A conversation about the use of AI in the academic setting</h2>
@@ -49,12 +53,32 @@
         </div>
       </div>
 
-      <div class="button toggle">Video Project</div>
+      <div class="button toggle"><i class="fa-brands fa-youtube"></i>Video Project</div>
       <div class="slidedown">
         <div class="description">
           <h2>Painting Tutorial for Beginners, by a Beginner.</h2>
           <p>A time-lapse of an oil painting intended to give helpful tips to other beginners wanting to try out oil painting!</p>
-          <a href="#" class="https://youtu.be/2dJKwLSNbAg" target="_blank">Watch</a>
+          <style>
+            .embed-container {
+              position: relative;
+              padding-bottom: 56.25%;
+              height: 0;
+              overflow: hidden;
+              max-width: 100%;
+            }
+          
+            .embed-container iframe,
+            .embed-container object,
+            .embed-container embed {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+            }
+          </style>
+          <div class="embed-container"><iframe src="https://www.youtube.com/embed/2dJKwLSNbAg?si=E6EU4ogD15hmVLbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <a href="https://youtu.be/2dJKwLSNbAg" class="external-link" target="_blank">Watch</a>
         </div>
       </div>
     </div>
